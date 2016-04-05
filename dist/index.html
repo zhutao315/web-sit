@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<!-- 是否启用 WebApp 全屏模式，删除苹果默认的工具栏和菜单栏 -->
+	<meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL">
+	<!-- uc强制竖屏 -->
+	<meta name="screen-orientation" content="portrait">
+	<!-- UC强制全屏 -->
+	<meta name="full-screen" content="yes">
+	<!-- UC应用模式 -->
+	<meta name="browsermode" content="application">
+	<!-- QQ强制竖屏 -->
+	<meta name="x5-orientation" content="portrait">
+	<!-- QQ强制全屏 -->
+	<meta name="x5-fullscreen" content="true">
+	<!-- QQ应用模式 -->
+	<meta name="x5-page-mode" content="app">
+	<meta name="browsermode" content="application"/> <!--//长按网页，阻止UC弹出菜单-->
+	<!--忽略识别数字-->
+	<meta content="telephone=no" name="format-detection" />
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+
+	<header class="site-header container animated fadeInDown">
+		<div class="header-wrapper">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="site-branding">
+						<a href="#"><h1>简历</h1></a>
+					</div>
+				</div>
+				<a href="#" class="toggle-nav hidden-md hidden-lg">
+					<i class="fa fa-bars"></i>
+				</a>
+				<div class="col-md-8">
+					<nav id="nav" class="main-navigation hidden-xs hidden-sm" style="width:230px;float:right">
+						<div class="dock" id="dock">
+							<div class="dock-container main-menu">
+								<a class="show-1 active homebutton dock-item" href="#"><img src="img/fish/home_1.png" alt="home" /><span>主页</span></a>
+								<a class="show-2 aboutbutton dock-item" href="#"><img src="img/fish/calendar.png" alt="contact" /><span>介绍</span></a>
+								<a class="show-3 projectbutton dock-item" href="#"><img src="img/fish/portfolio.png" alt="portfolio" /><span>项目</span></a>
+								<a class="show-4 blogbutton dock-item" href="#"><img src="img/fish/history.png" alt="music" /><span>技能</span></a>
+								<a class="show-5 contactbutton dock-item" href="#"><img src="img/fish/email.png" alt="video" /><span>联系我</span></a>
+							</div>
+						</div>
+					</nav>
+					<nav class="main-navigation menu-responsive hidden-md hidden-lg">
+						<ul class="main-menu">
+							<li><a class="show-1 active homebutton" href="#">主页</a></li>
+							<li><a class="show-2 aboutbutton" href="#">介绍</a></li>
+							<li><a class="show-3 projectbutton" href="#">项目</a></li>
+							<li><a class="show-4 blogbutton" href="#">技能</a></li>
+							<li><a class="show-5 contactbutton" href="#">联系我</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="menu-container" style="position:relative">
+		<div id="menu-1" class="homepage home-section container">
+			<div class="home-intro text-center">
+				<div class="header-photo animated fadeInDown"></div>
+				<h2 class="welcome-title animated fadeInLeft">朱涛</h2>
+				<p class="animated fadeInRight">
+				<span>求职：web前端工程师</span>
+				</p>
+				<p class="animated fadeInRight delay">
+				<span>email：917588158@qq.com</span>
+				</p>
+				<p class="animated fadeInLeft">
+				<span>现所在地：上海</span>
+				</p>
+				<p class="animated fadeInLeft delay">
+				<span>联系电话：13691616854</span>
+				</p>
+				<ul class="list-icons animated fadeInUp">
+					<li><i class="icon-trophy"></i></li>
+					<li><i class="icon-badge"></i></li>
+					<li><i class="icon-magic-wand"></i></li>
+					<li><i class="icon-screen-desktop"></i></li>
+				</ul>
+			</div>
+			<!--<div class="home-projects">
+				<div class="row">
+					<div class="col-md-6 col-sm-12">
+						<div class="project-title animated fadeInUp">
+							<h2>Latest Projects</h2>
+							<p>Sed eu turpis vehicula, iaculis sapien eu, molestie libero. Cras ac urna in neque commodo sodales vel et dolor. Pellentesque aliquam semper lectus, nec consequat ex lacinia nec. <br><br>Nunc eget velit nec felis ultrices vulputate venenatis interdum arcu. In ac auctor quam. </p>
+							<a href="#" class="pink-button">Continue Journal</a>
+						</div>
+					</div>
+					<div class="project-home-holder col-md-6 col-sm-12">
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="project-item one animated fadeInRight">
+									<img src="img/1.jpg" alt="">
+									<div class="overlay">
+										<h4><a href="#">Project One</a></h4>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="project-item two animated fadeInRight">
+									<img src="img/2.jpg" alt="">
+									<div class="overlay">
+										<h4><a href="#">Project Two</a></h4>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="project-item three animated fadeInRight">
+									<img src="img/3.jpg" alt="">
+									<div class="overlay">
+										<h4><a href="#">Project Three</a></h4>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="project-item four animated fadeInRight">
+									<img src="img/4.jpg" alt="">
+									<div class="overlay">
+										<h4><a href="#">Project Four</a></h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>-->
+		</div>
+
+		<div id="menu-2" class="content about-section container">
+			<div class="our-story">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="inner-story animated fadeInRight">
+							<h2 class="text-center">自我介绍</h2>
+							<p><span style="font-weight: bold">本人从事web前端工作,到现在已有一年半的工作经验。
+								本人目前在上海在职，想到杭州换个工作环境，希望找到一家能让我实现自身价值并同时能接触到前端高新技术的一家公司。</span>
+								期间主要负责对移动设备优先的
+								web网页布局以及一系列前端业务功能的实现。本人相对比较擅长用js实现前端业务功能，
+								并对nodejs实现后端逻辑非常感兴趣,闲暇之余喜欢研究框架和插件源码以求技术精进并提高项目的掌控度和性能优化。
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="our-offers">
+				<div class="offer-header">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3">
+							<div class="offer-title animated fadeInDown">
+								<h5>应聘职位：web前端工程师(移动应用优先)</h5>
+								<h5>要求薪资：8000-10000元/月(可面议)</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="offer-holder">
+						<div class="col-md-6">
+							<div class="offer-item offer-1 animated fadeInLeft">
+								<figure>
+									<img src="img/a1.jpg" alt="">
+								</figure>
+								<div class="offer-content">
+									<h4>2013/12--2014/4</h4>
+									<p><strong> 四方精创咨询股份有限公司 （1000-5000人、民营公司）</strong></p>
+									<p>
+										<div>地点:深圳</div>
+										<div>职位名称： 软件测试(实习)</div>
+										<div>工作任务:对java程序所编写的银行业务系统的功能型测试，对数字，日期格式，数据流向分析，打印格式比对等精细测试。
+											编写详细的错误文档包括导致错误的操作流程每一步的截图和说明。
+										</div>
+									</p>
+									<span class="offer-left"><i></i></span>
+									<span class="offer-right"><i></i></span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="offer-item offer-2 animated fadeInRight">
+								<figure>
+									<img src="img/a2.jpg" alt="">
+								</figure>
+								<div class="offer-content">
+									<h4>2014/10--至今</h4>
+									<p>上海了物网络科技有限公司 （少于50人、民营公司）</p>
+									<p>
+										<div>地点:上海</div>
+										<div>职位名称： web前端工程师</div>
+										<div>工作任务：从事web前端程序开发，开发类似电商平台的大型项目。
+											包括UI界面设计，js逻辑代码编写以及和后台人员数据对接等。
+										</div>
+									</p>
+									<span class="offer-left"><i></i></span>
+									<span class="offer-right"><i></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="menu-3" class="content project-section container">
+			<div class="projects-holder">
+				<div class="row animated p">
+					<div class="col-md-4 col-sm-6 p-1 animated umScaleIn">
+						<div class="project-item ">
+							<img src="img/1.jpg">
+							<div class="overlay">
+								<h4>商品销售客户端</h4>
+								<a href="#pic_one"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 p-2 animated umScaleIn">
+						<div class="project-item">
+							<img src="img/2.jpg">
+							<div class="overlay">
+								<h4>渠道管理报表</h4>
+								<a href="#pic_two"></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-6 p-3 animated umScaleIn">
+						<div class="project-item">
+
+							<img src="img/3.jpg">
+							<div class="overlay">
+								<h4>商家后台管理项目</h4>
+								<a href="#pic_three"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--<div class="row">
+					<div class="col-md-3 col-sm-6 p-4 animated umScaleIn">
+						<div class="project-item animated umScaleIn">
+							<img src="img/4.jpg" alt="">
+							<div class="overlay">
+								<h4><a href="#">Project Four</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="project-item p-5 animated umScaleIn">
+							<img src="img/5.jpg" alt="">
+							<div class="overlay">
+								<h4><a href="#">Project Five</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="project-item p-6 animated umScaleIn">
+							<img src="img/6.jpg" alt="">
+							<div class="overlay">
+								<h4><a href="#">Project Six</a></h4>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="project-item p-7 animated umScaleIn">
+							<img src="img/7.jpg" alt="">
+							<div class="overlay">
+								<h4><a href="#">Project Seven</a></h4>
+							</div>
+						</div>
+					</div>
+				</div>-->
+			</div>
+		</div>
+
+		<div id="menu-4" class="content blog-section container">
+			<div class="row blog-posts">
+				<div class="col-md-4 col-sm-12">
+					<div class="blog-item post-1 animated zoomIn">
+						<div class="circliful" data-dimension="150" data-text="Javascript" data-info="New Clients" data-width="10"
+							 data-fontsize="20" data-percent="60" data-fgcolor="rgba(2,200,200,1)" data-bgcolor="#eee"
+							 data-fill="#ddd"></div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="blog-item post-2 animated zoomIn">
+						<div class="circliful" data-dimension="150" data-text="Bootstrap" data-info="New Clients" data-width="10"
+							 data-fontsize="20" data-percent="60" data-fgcolor="rgba(2,200,200,1)" data-bgcolor="#eee"
+							 data-fill="#ddd"></div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="blog-item post-3 animated zoomIn">
+						<div class="circliful" data-dimension="150" data-text="Html+Css3" data-info="New Clients" data-width="10"
+							 data-fontsize="20" data-percent="80" data-fgcolor="rgba(2,200,200,1)" data-bgcolor="#eee"
+							 data-fill="#ddd"></div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="blog-item post-4 animated zoomIn">
+						<div class="circliful" data-dimension="150" data-text="angularJs" data-info="New Clients" data-width="10"
+							 data-fontsize="20" data-percent="60" data-fgcolor="rgba(2,200,200,1)" data-bgcolor="#eee"
+							 data-fill="#ddd"></div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="blog-item post-5 animated zoomIn">
+						<div class="circliful" data-dimension="150" data-text="nodejs" data-info="New Clients" data-width="10"
+							 data-fontsize="20" data-percent="40" data-fgcolor="rgba(2,200,200,1)" data-bgcolor="#eee"
+							 data-fill="#ddd"></div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="blog-item post-5 animated zoomIn">
+						<div class="circliful" data-dimension="150" data-text="jquery" data-info="New Clients" data-width="10"
+							 data-fontsize="20" data-percent="80" data-fgcolor="rgba(2,200,200,1)" data-bgcolor="#eee"
+							 data-fill="#ddd"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="menu-5" class="content contact-section container">
+			<div class="contact-holder">
+				<div class="row">
+
+					<div class="col-md-6 col-sm-12" style="overflow: hidden;height:505px;position: relative">
+						<div class="box-center animated xiao" style="opacity: 0"><div><img src="img/fish/xiao.png" /></div></div>
+						<div class="contact-form animated fadeInUp">
+							<h4>Send me a Message</h4>
+							<div class="row">
+								<fieldset class="col-md-6">
+									<input type="text" id="com_name" name="name" placeholder="贵公司名字">
+								</fieldset>
+								<fieldset class="col-md-6">
+									<input type="email" id="com_email" name="email" placeholder="email">
+								</fieldset>
+								<fieldset class="col-md-12">
+									<input type="text"  id="com_url" name="url" placeholder="贵公司网址">
+								</fieldset>
+								<fieldset class="col-md-12">
+									<textarea name="message" id="leave_message" cols="30" rows="10" placeholder="留言"></textarea>
+								</fieldset>
+								<fieldset class="col-md-12">
+									<a href="#" class="message-button" data-toggle="modal"
+									   data-target="#myModal">Submit</a>
+								</fieldset>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-12">
+			            <div class="googlemap-wrapper animated fadeInRight">
+                            <div id="map_canvas" class="map-canvas text-center" style="padding:20% 10%">
+                            	<div class=""><h3 class="font-3d">说明一下</h3></div>
+								<p  class="into-shadow">因本人在职，可能有时没有时间接听电话，请将贵公司信息填入左边信息栏提交，本人会在闲余时主动发送邮件答复您。不便之处敬请谅解  :)</p>
+							</div>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 模态框（Modal） -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+		 aria-labelledby="myModalLabel" aria-hidden="true" style="top:20%;">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body text-center">
+					<h3>感谢您的关注，我将会在第一时间给您答复。</h3>
+				</div>
+				<div class="modal-footer" style="text-align: center">
+					<button type="button" class="btn btn-default"
+							data-dismiss="modal">确定
+					</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div>
+		</div><!-- /.modal -->
+
+	<div id="pic_one" style="display:none;"><div class="intro-p">
+		<div ><p><strong>项目名称：</strong>商品销售客户端</p></div>
+		<div><p><strong>主要技术：</strong>angularjs,jquery,requirejs,bootstrap,angular-router</p></div>
+		<div><p><strong>简要描述：</strong>由angularjs,requirejs,angular-router构成单页面应用，为一个独立的web项目，在maven的管理下。
+			在开发阶段由grunt建立静态服务器并管理此项目，通过异步调用后台人员建立的java服务器的api来获取数据，
+			在部署阶段，将此web项目连同后台的java项目一起部署到服务器。
+		</p></div>
+	</div></div>
+	<div id="pic_two" style="display:none;"><div class="intro-p">
+		<div ><p><strong>项目名称：</strong>渠道管理报表</p></div>
+		<div><p><strong>主要技术：</strong>angularjs,reqirejs,angular-ui-router,echarts</p></div>
+		<div ><p><strong>简要描述：</strong>
+			方便工厂，渠道和店铺对其以及其下属单位的人事信息和销售情况，收发货的管理和查询。本项目重点是以树形结构展示工厂，渠道和店铺的销售情况，并对其归纳整理出可视化报表。
+		</p></div>
+	</div></div>
+	<div id="pic_three" style="display:none;"><div class="intro-p">
+		<div ><p><strong>项目名称：</strong>商家后台管理项目</p></div>
+		<div><p><strong>主要技术：</strong>java,spring,freemarker,gulp</p></div>
+		<div><p><strong>简要描述：</strong>基于一个商城管理系统，本人主要任务是修改和增加前端展示页面并与后台人员对接数据，生成ftl模板，该项目ftl文件由gulp+fmpp管理</p></div>
+	</div></div>
+
+	<footer class="site-footer container text-center">
+		<!--<div class="row">
+			<div class="col-md-12">
+				<div class="main-footer">
+					<ul class="social">
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Twitter</a></li>
+						<li><a href="#">Instagram</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>-->
+		<div class="row">
+			<div class="col-md-12 copyright">
+				<p>朱涛 web前端工程师</p>
+				<p>联系电话：13691616854  邮箱：917588158@qq.com</p>
+			</div>
+		</div>
+	</footer>
+	<!-- templatemo 421 raleway -->
+	<span class="border-top"></span>
+	<span class="border-left"></span>
+	<span class="border-right"></span>
+	<span class="border-bottom"></span>
+	<span class="shape-1"></span>
+	<span class="shape-2"></span>
+
+
+	<script src="https://cdn1.lncld.net/static/js/av-mini-0.6.4.js"></script>
+	<script src="js/all.js"></script>
+</body>
+</html>
